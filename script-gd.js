@@ -434,45 +434,6 @@ openAccordion(accordionItems[0]);
 
     const text = document.getElementById('textEffect');
     const textRect = text.getBoundingClientRect();
-
-
 });    
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    const carousel = document.querySelector('.carousel');
-    const carouselInner = carousel.querySelector('.carousel-inner');
-    const prevBtn = carousel.querySelector('.prev');
-    const nextBtn = carousel.querySelector('.next');
-    const timer = carousel.querySelector('.carousel-timer');
-    const items = carousel.querySelectorAll('.carousel-item');
-    const itemCount = items.length;
-    let currentIndex = 0;
-
-    function showItem(index) {
-        carouselInner.style.transform = `translateX(-${index * 100}%)`;
-        currentIndex = index;
-        resetTimer();
-    }
-
-    function showNext() {
-        showItem((currentIndex + 1) % itemCount);
-    }
-
-    function showPrev() {
-        showItem((currentIndex - 1 + itemCount) % itemCount);
-    }
-
-    function resetTimer() {
-        timer.querySelector('::before').style.width = '0';
-        setTimeout(() => {
-            timer.querySelector('::before').style.width = '100%';
-        }, 50);
-    }
-
-    prevBtn.addEventListener('click', showPrev);
-    nextBtn.addEventListener('click', showNext);
-
-    // Auto-advance carousel
-    setInterval(showNext, 5000);
-});
