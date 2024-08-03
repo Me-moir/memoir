@@ -366,21 +366,21 @@ main {
 }
 
 #square::before {
-  background-image: url('../Resources/dube.png');
+  background-image: url('../Resources/.png');
   background: linear-gradient(to right, rgb(13, 13, 13, 0.3), rgba(248, 245, 245, 0)), /* Fading gradient on the left side */
-  url('../Resources/cube.png') top/cover no-repeat;
+  url('../Resources/.png') top/cover no-repeat;
 }
 
 #landscape::before {
-  background-image: url('../Resources/landscape.png');
+  background-image: url('../Resources/.png');
   background: linear-gradient(to right, rgb(13, 13, 13, 0.3), rgba(248, 245, 245, 0)), /* Fading gradient on the left side */
-  url('../Resources/landscape.png') top/cover no-repeat;
+  url('../Resources/.png') top/cover no-repeat;
 }
 
 #portrait::before {
-  background-image: url('../Resources/portrait.png');
+  background-image: url('../Resources/.png');
   background: linear-gradient(to right, rgb(13, 13, 13, 0.3), rgba(248, 245, 245, 0)), /* Fading gradient on the left side */
-  url('../Resources/portrait.png') top/cover no-repeat;
+  url('../Resources/.png') top/cover no-repeat;
 }
 
 #showcase::before {
