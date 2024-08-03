@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graphics Design</title>
+    <link rel="stylesheet" href="style-gd.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+    />
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,0"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+</head>
+<body>
+
+<header class="navigation_header">
+    <nav class="navbar">
+        <ul class="navbar-menu">
+            <li>
+                <button type="button" data-content="pricing">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <p>PRICING</p>
+                </button>
+            </li>
+            <li>
+                <button type="button" data-content="portfolio">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <p>PORTFOLIO</p>
+                </button>
+            </li>
+            <li>
+                <button type="button" data-content="reviews">
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <p>REVIEWS</p>
+                </button>
+            </li>
+            <li>
+                <button type="button" data-content="about">
+                    <i class="fa-solid fa-user-large"></i>
+                    <p>ABOUT</p>
+                </button>
+            </li>
+            <li>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<!-- MAIN BODY FOR HOME PAGE -->
+
+
+<main>
+    <section id="pricing" class="content active">
+        <div class="landing-content">
+            <img src="../Resources/M logo.png" alt="Logo" class="center-logo">
+            <h1 id="textEffect">Find the right plan for you</h1>
+            <p>Choose a plan that suits your needs and dive into a seamless enhanced user journey.</p>
+        </div>
+
+
+        <section class="toggle-section">
+            <div class="toggle-container">
+                <div class="toggle-group project-toggle-group">
+                    <button class="toggle-btn active" data-target="graphics">Graphics</button>
+                    <button class="toggle-btn" data-target="ux">UX</button>
+                    <button class="toggle-btn" data-target="website">Website</button>
+                </div>
+                <div class="separator"></div>
+                <div class="toggle-group customer-toggle-group">
+                    <button class="toggle-btn-2 active" data-target="standard">Standard</button>
+                    <button class="toggle-btn-2" data-target="commercial">Commercial</button>
+                    <button class="toggle-btn-2 promo-btn" data-target="promo">Promo</button>
+                </div>
+            </div>
+        </section>
+                
+        <!--- GRAPHICS DESIGN -->
+        <section class="plans-section">
+            <div id="graphics" class="section active">
+                <div id="square" class="plan">
+                    <h3 id="textEffect">Square</h3>
+                    <p class="description">Ideal for profile picture, Facebook posts, cards, etc.</p>
+                    <p class="price" data-base-price="449.00">PHP 449.00 <span class="price-detail">&nbsp;per one (1) page</span></p>
+                    <a href="#" class="plan-button">Choose this plan</a>
+                    <ul>
+                        <li><i class="fas fa-cube"></i> <span class="highlight-text">Three (3) free </span>&nbsp;<span class="highlight-subtext">design variations</span></li>
+                        <li><i class="fa-solid fa-object-group"></i> <span class="highlight-text">Versatile format </span>&nbsp;<span class="highlight-subtext">(JPG, PNG, PDF)</span></li>
+                        <li><i class="fa-solid fa-pen-to-square"></i> <span class="highlight-text">Customizable Templates</span>&nbsp;<span class="highlight-subtext">through Canva</span></li>
+                        <li><i class="fa-solid fa-image"></i> <span class="highlight-text">4K quality </span>&nbsp;<span class="highlight-subtext">supported</span></li>
+                        <li><i class="fa-solid fa-hourglass-start"></i> <span class="highlight-text">24-hour </span>&nbsp;<span class="highlight-subtext">turnaround time</span></li>
+                    </ul>
+                </div>
+        
+                <div id="landscape" class="plan">
+                    <span class="popular-tag">Most Popular</span>
+                    <h3>Landscape</h3>
+                    <p class="description">Ideal for banners, cover photo, desktop wallpaper, landscape post, thumbnail, etc.</p>
+                    <p class="price" data-base-price="599.00">PHP 599.00 <span class="price-detail">&nbsp;per one (1) page</span></p>
+                    <a href="#" class="plan-button">Choose this plan</a>
+                    <ul>
+                        <li><i class="fas fa-cube"></i> <span class="highlight-text">Three (3) free </span>&nbsp;<span class="highlight-subtext">design variations</span></li>
+                        <li><i class="fa-solid fa-object-group"></i> <span class="highlight-text">Versatile format </span>&nbsp;<span class="highlight-subtext">(JPG, PNG, PDF)</span></li>
+                        <li><i class="fa-solid fa-pen-to-square"></i> <span class="highlight-text">Customizable Templates</span>&nbsp;<span class="highlight-subtext">through Canva</span></li>
+                        <li><i class="fa-solid fa-image"></i> <span class="highlight-text">4K to 8K quality </span>&nbsp;<span class="highlight-subtext">supported</span></li>
+                        <li><i class="fa-solid fa-map"></i> <span class="highlight-text">Wide horizontal size </span>&nbsp;<span class="highlight-subtext">supported</span></li>
+                        <li><i class="fa-solid fa-hourglass-start"></i> <span class="highlight-text">48-hour </span>&nbsp;<span class="highlight-subtext">turnaround time</span></li>
+                    </ul>
+                </div>
+                <div id="portrait" class="plan">
+                    <h3>Portrait</h3>
+                    <p class="description">Ideal for stories, posters, flyers, menu, infographics, invitation card, etc.</p>
+                    <p class="price" data-base-price="649.00">PHP 649.00 <span class="price-detail">&nbsp;per one (1) page</span></p>
+                    <a href="#" class="plan-button">Choose this plan</a>
+                    <ul>
+                        <li><i class="fas fa-cube"></i> <span class="highlight-text">Three (3) free </span>&nbsp;<span class="highlight-subtext">design variations</span></li>
+                        <li><i class="fa-solid fa-object-group"></i> <span class="highlight-text">Versatile format </span>&nbsp;<span class="highlight-subtext">(JPG, PNG, PDF)</span></li>
+                        <li><i class="fa-solid fa-pen-to-square"></i> <span class="highlight-text">Customizable Templates</span>&nbsp;<span class="highlight-subtext">through Canva</span></li>
+                        <li><i class="fa-solid fa-image"></i> <span class="highlight-text">4K to 8K quality </span>&nbsp;<span class="highlight-subtext">supported</span></li>
+                        <li><i class="fa-solid fa-map"></i> <span class="highlight-text">Wide vertical size </span>&nbsp;<span class="highlight-subtext">supported</span></li>
+                        <li><i class="fa-solid fa-hourglass-start"></i> <span class="highlight-text">48-hour </span>&nbsp;<span class="highlight-subtext">turnaround time</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--- USER EXPERIENCE (UX) --> 
+            <div id="ux" class="section">
+                <div id="showcase" class="plan">
+                    <span class="popular-tag">Most Popular</span>
+                    <h3>Showcase Plan </h3>
+                    <p class="description">Ideal for personal websites, portfolios, and blogs. </p>
+                    <p class="price" data-base-price="3499.00">PHP 3499.00 <span class="price-detail">&nbsp;negotiable</span></p>
+                    <a href="#" class="plan-button">Choose this plan</a>
+                    <ul>
+                        <li><i class="fa-solid fa-comment-dots"></i> <span class="highlight-text">Initial consultation </span>&nbsp;<span class="highlight-subtext">via Zoom</span></li>
+                        <li><i class="fa-solid fa-window-restore"></i> <span class="highlight-text">Wireframes </span>&nbsp;<span class="highlight-subtext">of up to 5 pages</span></li>
+                        <li><i class="fa-solid fa-diagram-project"></i> <span class="highlight-text">Userflow diagrams </span>&nbsp;<span class="highlight-subtext">provided</span></li>
+                        <li><i class="fa-solid fa-gear"></i> <span class="highlight-text">Basic prototyping </span>&nbsp;<span class="highlight-subtext">supported</span></li>
+                        <li><i class="fa-solid fa-calendar-check"></i> <span class="highlight-text">Two (2) weeks </span>&nbsp;<span class="highlight-subtext">project timeline</span></li>
+                    </ul>
+                </div>
+                <div id="advocacy" class="plan">
+                    <h3>Advocacy Plan</h3>
+                    <p class="description">Designed for non-profit organizations, movements, and advocacies.</p>
+                    <p class="price" data-base-price="4499.00">PHP 4499.00 <span class="price-detail">&nbsp;negotiable</span></p>
+                    <a href="#" class="plan-button">Choose this plan</a>
+                    <ul>
+                        <li><i class="fa-solid fa-comment-dots"></i> <span class="highlight-text">Initial consultation </span>&nbsp;<span class="highlight-subtext">via Zoom</span></li>
+                        <li><i class="fa-solid fa-window-restore"></i> <span class="highlight-text">Wireframes </span>&nbsp;<span class="highlight-subtext">of up to 10 pages</span></li>
+                        <li><i class="fa-solid fa-diagram-project"></i> <span class="highlight-text">Userflow diagrams </span>&nbsp;<span class="highlight-subtext">provided</span></li>
+                        <li><i class="fa-solid fa-gears"></i> <span class="highlight-text">Hi-fideility interactive </span>&nbsp;<span class="highlight-subtext">prototyping</span></li>
+                        <li><i class="fa-solid fa-chart-area"></i> <span class="highlight-text">Usability testing </span>&nbsp;<span class="highlight-subtext">and feedback</span></li>
+                        <li><i class="fa-solid fa-calendar-check"></i> <span class="highlight-text">Three (3) weeks </span>&nbsp;<span class="highlight-subtext">project timeline</span></li>
+                    </ul>
+                </div>
+                <div id="enterprise" class="plan">
+                    <h3>Enterprise Plan</h3>
+                    <p class="description">Tailored for e-commerce and business enterprise needs.</p>
+                    <p class="price" data-base-price="5999.00">PHP 5999.00 <span class="price-detail">&nbsp;negotiable</span></p>
+                    <a href="#" class="plan-button">Choose this plan</a>
+                    <ul>
+                        <li><i class="fa-solid fa-comment-dots"></i> <span class="highlight-text">Initial consultation </span>&nbsp;<span class="highlight-subtext">via Zoom</span></li>
+                        <li><i class="fa-solid fa-window-restore"></i> <span class="highlight-text">Initial wireframes </span>&nbsp;<span class="highlight-subtext">of up to 50 pages</span></li>
+                        <li><i class="fa-solid fa-diagram-project"></i> <span class="highlight-text">Userflow diagrams </span>&nbsp;<span class="highlight-subtext">provided</span></li>
+                        <li><i class="fa-solid fa-gears"></i> <span class="highlight-text">Hi-fideility interactive </span>&nbsp;<span class="highlight-subtext">prototyping</span></li>
+                        <li><i class="fa-solid fa-chart-area"></i> <span class="highlight-text">Usability testing </span>&nbsp;<span class="highlight-subtext">and feedback</span></li>
+                        <li><i class="fa-solid fa-chart-area"></i> <span class="highlight-text">Payment gateway </span>&nbsp;<span class="highlight-subtext">included</span></li>
+                        <li><i class="fa-solid fa-calendar-check"></i> <span class="highlight-text">Four (4) weeks </span>&nbsp;<span class="highlight-subtext">project timeline</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--- WEBSITE --> 
+            <div id="website" class="section">
+                <div id="canva" class="plan">
+                    <h3>Canva Webpage</h3>
+                    <span class="popular-tag">Most Popular</span>
+                    <p class="description">
+                        Made with simple webpages, offering a sleek showcase of your content. Ideal for basic informational sites.</p>
+                    <p class="price" data-base-price="449.00">PHP 449.00 <span class="price-detail">&nbsp;base price</span></p>
+                    <a href="#" class="plan-button">Choose this plan</a>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check" style="color: #e5065f;"></i> <span class="highlight-text">Editable via Canva</span>&nbsp;<span class="highlight-subtext">(No code)</span></li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #e5065f;"></i> <span class="highlight-text">One (1) Page  </span>&nbsp;<span class="highlight-subtext">only</span></li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #e5065f;"></i> <span class="highlight-text">Hyperlinks, images, videos </span>&nbsp;<span class="highlight-subtext"> supported</span></li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #e5065f;"></i> <span class="highlight-text">Buttons, icons, forms  </span>&nbsp;<span class="highlight-subtext">supported</span></li>
+                        <li><i class="fa-solid fa-xmark"></i> <span class="highlight-subtext">Animations not supported</span></li>
+                        <li><i class="fa-solid fa-xmark"></i> <span class="highlight-subtext">Fill-up forms not supported</span></li>
+                    </ul>
+                </div>
+
+                <div id="standard-website" class="plan">
+                    <h3>Standard Website</h3>
+                    <p class="description">A standard website with full traditional capabilities, offering essential features for a professional online presence.</p>
+                    <p class="price" data-base-price="3499.00">PHP 3499.00 <span class="price-detail">&nbsp;negotiable</span></p>
+                    <a href="#" class="plan-button">Choose this plan</a>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check" style="color: #e5065f;"></i> <span class="highlight-text">Low-code using</span>&nbsp;<span class="highlight-subtext">HTML, CSS, JavaScript</span></li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #e5065f;"></i> <span class="highlight-text">Up to fifteen (15)</span>&nbsp;<span class="highlight-subtext">webpages</span></li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #e5065f;"></i> <span class="highlight-text">Hyperlinks, images, videos </span>&nbsp;<span class="highlight-subtext"> supported</span></li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #e5065f;"></i> <span class="highlight-text">Buttons, icons, forms  </span>&nbsp;<span class="highlight-subtext">supported</span></li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #e5065f;"></i> <span class="highlight-text">Limited animations  </span>&nbsp;<span class="highlight-subtext">supported</span></li>
+                        <li><i class="fa-solid fa-file-signature" style="color: #e5065f;"></i> <span class="highlight-text">Contractual plans </span>&nbsp;<span class="highlight-subtext">supported</span></li>
+                    </ul>
+                </div>
+
+                <div id="premium" class="plan">
+                    <h3>Premium Website</h3>
+                    <p class="description">Perfect for complex websites, offering limitless functionality and features through customized coding.</p>
+                    <p class="price" data-base-price="7499.00">PHP 8499.00 <span class="price-detail">&nbsp;negotiable</span></p>
+                    <a href="#" class="plan-button">Choose this plan</a>
+                    <ul>
+                        <li><i class="fa-solid fa-crown"style="color: #e5065f;"></i> <span class="highlight-text">Fully coded using </span>&nbsp;<span class="highlight-subtext">HTML, CSS, JavaScript</span></li>
+                        <li><i class="fa-solid fa-crown"style="color: #e5065f;"></i> <span class="highlight-text">Up to fifty (50)</span>&nbsp;<span class="highlight-subtext">webpages</span></li>
+                        <li><i class="fa-solid fa-crown"style="color: #e5065f;"></i> <span class="highlight-text">All features  </span>&nbsp;<span class="highlight-subtext">supported</span></li>
+                        <li><i class="fa-solid fa-crown"style="color: #e5065f;"></i> <span class="highlight-text">All animations </span>&nbsp;<span class="highlight-subtext">supported</span></li>
+                        <li><i class="fa-solid fa-crown"style="color: #e5065f;"></i> <span class="highlight-text">All layout </span>&nbsp;<span class="highlight-subtext">supported</span></li>
+                        <li><i class="fa-solid fa-file-signature" style="color: #e5065f;"></i> <span class="highlight-text">Contractual plans </span>&nbsp;<span class="highlight-subtext">supported</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <section class="payment-section">
+                        <div class="payment-content">
+                            <h1>Accepted Payment Methods</h1>
+                            <p>We accept payments through any of the official channels below:</p>
+                            <div class="payment-methods">
+                                <img src="../Resources/gcash.png" alt="gcash" class="payment-method">
+                                <img src="../Resources/maya.png" alt="maya" class="payment-method">
+                                <img src="../Resources/grabpay.png" alt="grabpay" class="payment-method">
+                                <img src="../Resources/spay.png" alt="spay" class="payment-method">
+                                <img src="../Resources/paypal.png" alt="paypal" class="payment-method">
+                                <img src="../Resources/metrobank.png" alt="metrobank" class="payment-method">
+                                <img src="../Resources/bpi.png" alt="bpi" class="payment-method">
+                                <img src="../Resources/binance.png" alt="binance" class="payment-method">
+                            </div>
+                        </div>
+                    </section>
+
+            <section class="faq-section">
+                <div class="faq-content">
+                    <div class="faq-left">
+                        <h1>Frequently Asked Questions</h1>
+                        <p>Find answers to common questions about our services and products. Can't find what you're looking for?</p>
+                        <div class="button-group">
+                            <button class="chat-button"><i class="fa-solid fa-comments"></i>Chat with us</button>
+                            <button class="policy-button"><i class="fa-solid fa-list-check"></i>View Policy</button>
+                        </div>
+                    </div>
+                    <div class="faq-right">
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <button class="accordion-header">
+                                    <span>What payment methods do you accept?</span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>We take orders through Facebook Messenger or Zoom call for order processing. Reach out to us by clicking "choose plan".</p>
+                                </div>
+                                <div class="timer-bar"></div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-header">
+                                    <span>Do you offer customized plans?</span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>Yes, we can tailor our plans to meet your specific needs. It will be subjected to value-based pricing plus the custom fee.</p>
+                                </div>
+                                <div class="timer-bar"></div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-header">
+                                    <span>What is your payment policy? Do you offer installment plans?</span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>We are on payment-first policy with no refund once the order has been processed. We also offer installment plans depending on the project timeline. Installment terms will be discussed and varies per negotiation.</p>
+                                </div>
+                                <div class="timer-bar"></div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-header">
+                                    <span>Do you provide support after project completion?</span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>Yes, we offer revisions for typographical errors, glitches, and other problems occured during our editing/development process.</p>
+                                </div>
+                                <div class="timer-bar"></div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-header"><span>Do you offer subscription plans for maintenance of websites?</span></button>
+                                <div class="accordion-content">
+                                    <p>Yes, we offer long term subscription plans for maintianing your website. Subscription terms will be negotiated by all parties. </p>
+                                </div>
+                                <div class="timer-bar"></div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-header"><span>Do you offer student discount? What are the requirements?</span></button>
+                                <div class="accordion-content">
+                                    <p>Yes, we offer student discount of up to 80% off (see the Promo section above). Kindly provide us an image of your student ID or registration form to avail. </p>
+                                </div>
+                                <div class="timer-bar"></div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-header"><span>Do you use website builders for your websites?</span></button>
+                                <div class="accordion-content">
+                                    <p>No, we code our websites from scratch using various programming languages and markups (Html, Css, JavaScript, Php) to maximize the designs, features, and capabilities you want to portray on your websites.</p>
+                                </div>
+                                <div class="timer-bar"></div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-header"><span>Do your websites come with free domain name?</span></button>
+                                <div class="accordion-content">
+                                    <p>No, our clients should shoulder the cost for the domain name they want. We can offer assistance on our end. We can also process it for them for addtional fees.</p>
+                                </div>
+                                <div class="timer-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+
+    <section id="portfolio" class="content">
+        <!-- Landing Page -->
+        <div class="landing-page">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Showcasing my best works in Graphic Design, UX, and Web Development</p>
+        </div>
+
+        <!-- Featured Works Carousel -->
+        <div class="featured-works">
+            <h2>Featured Works</h2>
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../Resources/.png" alt="Project 1">
+                        <h3>Project 1</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="project2.jpg" alt="Project 2">
+                        <h3>Project 2</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="project3.jpg" alt="Project 3">
+                        <h3>Project 3</h3>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+                <div class="carousel-timer"></div>
+            </div>
+        </div>
+
+        <!-- Graphic Design Section -->
+        <div class="section graphic-design">
+            <h2>Graphic Design</h2>
+            <div class="project">
+                <div class="project-info">
+                    <h3>Client Name</h3>
+                    <p>Order Type: Logo Design</p>
+                    <a href="#" class="fb-link">Client's Facebook</a>
+                    <p class="notes">Additional notes about the project...</p>
+                </div>
+                <div class="project-image">
+                    <img src="graphic-design-project.jpg" alt="Graphic Design Project">
+                </div>
+            </div>
+            <!-- Add more project divs as needed -->
+        </div>
+
+        <!-- UX Section -->
+        <div class="section ux">
+            <h2>UX Design</h2>
+            <p class="placeholder">Will be updated soon</p>
+        </div>
+
+        <!-- Website Section -->
+        <div class="section website">
+            <h2>Web Development</h2>
+            <p class="placeholder">Will be updated soon</p>
+        </div>
+    </section>
+
+    <section id="reviews" class="content">
+        <!-- Reviews content -->
+    </section>
+
+    <section id="about" class="content">
+        <div class="about-container">
+            <div class="about-left">
+            <div class="profile-image"></div>
+            <div class="about-header">
+                <h1 id="yue-memoir" class="about-header">Yue Memoir</h1>
+                <p id="manila">Based in <span id="location">Manila, Philippines</span></p>
+            </div>
+            <div class="about-intro">
+                <p>Hi, I go by my pen name of Yue Memoir to deliver my services and crafts in your niche. </p>
+            </div>
+            <div class="contact-details">
+                <h3>Contact Details</h3>
+                <ul>
+                <li>Email: wmemoir@gmail.com</li>
+                </ul>
+                <div class="social-media">
+                <div class="social-icons-container">
+                    <div class="social-icon-wrapper facebook">
+                    <img src="../Resources/facebook.png" alt="Facebook Icon" class="social-icon" aria-label="Facebook Icon">
+                    </div>
+                    <div class="social-icon-wrapper discord">
+                    <img src="../Resources/discord.png" alt="Discord Icon" class="social-icon" aria-label="Discord Icon">
+                    </div>
+                    <div class="social-icon-wrapper telegram">
+                    <img src="../Resources/telegram.png" alt="Telegram Icon" class="social-icon" aria-label="Telegram Icon">
+                    </div>
+                    <div class="social-icon-wrapper github">
+                    <img src="../Resources/github.png" alt="GitHub Icon" class="social-icon" aria-label="GitHub Icon">
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="about-right">
+            <div class="academia">
+                <h3 id="academia-title">Academia</h3>
+                <div class="accordion education-accordion" id="education-accordion">
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">Bachelor of Science in Information Sytems</button>
+                        <div class="accordion-content">
+                          <h4 class="content-subtitle">University of Santo Tomas</h4>
+                          <div class="education-info">
+                            <span class="school-level">College of Information and Computing Sciences</span>
+                          </div>
+                          <div class="school-year">Academic Year 2023 - Present</div>
+                        </div>
+                        <div class="timer-bar"></div>
+                      </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">Bachelor of Science in Medical Technology</button>
+                        <div class="accordion-content">
+                          <h4 class="content-subtitle">University of Santo Tomas</h4>
+                          <div class="education-info">
+                            <span class="school-level">Faculty of Pharmacy</span>
+                          </div>
+                          <div class="school-year">Academic Year 2021 - 2023</div>
+                        </div>
+                        <div class="timer-bar"></div>
+                      </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">General Academics Strand - Specialized in Health Allied</button>
+                        <div class="accordion-content">
+                          <h4 class="content-subtitle">University of Santo Tomas</h4>
+                          <div class="education-info">
+                            <span class="school-level">Senior High School</span>
+                          </div>
+                          <div class="school-year">Academic Year 2019 - 2021</div>
+                        </div>
+                        <div class="timer-bar"></div>
+                      </div>
+                  </div>
+        
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+
+<footer class="footer-2-section">
+    <div class="footer-content">
+        <div class="footer-left">
+            <img src="../Resources/memoir-designer.png" alt="Johncen Jekk Logo" class="footer-logo">
+            <p class="copyright">© 2024 Memoir | All rights reserved.</p>
+            <p class="footer-description">This portfolio is a showcase of my work as a Web Developer, Programmer, and Designer, for educational and professional purposes.</p>
+        </div>
+        <div class="footer-right">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="path/to/your/resume.pdf" download>Privacy Policy</a></li>
+                <li><a href="path/to/your/cv.pdf" download>Terms and Conditions</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script src="../Graphics Design/script-gd.js"></script>
+</body>
+</html>
