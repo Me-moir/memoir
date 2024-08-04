@@ -465,15 +465,14 @@ main {
   text-transform: uppercase;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-
 .plan-button {
   display: inline-block;
-  background: linear-gradient(45deg, #2d2d2d, #212121);
+  background: linear-gradient(45deg, #c5003b, #9e008e);
   color: white;
   text-decoration: none;
   padding: 0.8rem 1.5rem;
   border-radius: 12px;
-  transition: all 0.3s ease; /* Made transition smoother */
+  transition: all 0.3s ease;
   width: 100%;
   font-size: 0.8em;
   text-align: center;
@@ -482,17 +481,16 @@ main {
   text-transform: uppercase;
   letter-spacing: 1px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  transition: background 0.5s ease, transform 0.5s ease, box-shadow 0.5s ease; /* Increased duration for smoother transition */
-  position: relative; /* Added for ::before positioning */
-  overflow: hidden; /* Added for ::before positioning */
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  position: relative;
+  overflow: hidden;
 }
 
 .plan-button:hover {
-  background: linear-gradient(45deg, #c5003b, #9e008e);
-  transform: translateY(-2px);
+  transform: translateY(-2px) scale(1.05);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
   color: white;
-  text-decoration: none; /* Remove underline on hover */
+  text-decoration: none;
 }
 
 .plan-button::before {
@@ -509,11 +507,6 @@ main {
       transparent
   );
   transform: rotate(45deg);
-  transition: all 0.5s;
-  opacity: 0;
-}
-
-.plan-button:hover::before {
   opacity: 1;
   animation: shine 1s linear infinite;
 }
